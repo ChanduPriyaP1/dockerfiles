@@ -1,16 +1,8 @@
-output "jenkins_public_ip" {
-  value = module.jenkins.public_ip
+output "docker-public-ip" {
+  value = module.docker.public_ip
 }
 
-output "jenkins_private_ip" {
-  value = module.jenkins.private_ip
-}
-
-output "jenkins_agent_public_ip" {
-  value = module.jenkins_agent.public_ip
-}
-
-output "jenkins_agent_private_ip" {
-  value = module.jenkins_agent.private_ip
+output "docker-private-ip" {
+  value = module.docker.private_ip
 }
 

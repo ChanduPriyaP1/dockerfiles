@@ -22,26 +22,7 @@ data "aws_ami" "ami_info" {
 
 #973714476881 RHEL owner ID
 #nexus AMI
-data "aws_ami" "nexus_ami_info" {
 
-    most_recent = true
-    owners = ["679593333241"]
-
-    filter {
-        name   = "name"
-        values = ["SolveDevOps-Nexus-Server-Ubuntu24.04-20250222-*"]
-    }
-
-    filter {
-        name   = "root-device-type"
-        values = ["ebs"]
-    }
-
-    filter {
-        name   = "virtualization-type"
-        values = ["hvm"]
-    }
-}
 
 #SolveDevOps-Nexus-Server-Ubuntu24.04-20250222-c47319d0-7c5dedd5-58ec-4c82-b20e-fb1f805a0304
 #679593333241
