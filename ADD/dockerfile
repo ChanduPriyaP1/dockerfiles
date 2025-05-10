@@ -1,0 +1,3 @@
+FROM almalinux:9
+ADD 
+ADD sample-1.tar /tmp/
