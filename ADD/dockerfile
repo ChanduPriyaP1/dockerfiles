@@ -1,3 +1,4 @@
 FROM almalinux:9
-ADD 
+ADD https://github.com/ChanduPriyaP1/dockerfiles/blob/main/ADD/sample-1.tar /tmp/session-1
 ADD sample-1.tar /tmp/
+CMD ["sleep","60"]
