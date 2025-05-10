@@ -1,3 +1,4 @@
 FROM almalinux:9
 LABEL name="chandu"\
-       job="no"
+       job="no"\
+       course="DevOps"
